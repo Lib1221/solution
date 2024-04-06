@@ -1,7 +1,6 @@
 class Solution:
     def similarPairs(self, words: List[str]) -> int:
         count = 0
-        words.sort()
         for i in range(len(words)):
             for j in range(i+1,len(words)):
                 y = set(words[i])
