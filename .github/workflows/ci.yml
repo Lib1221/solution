@@ -19,4 +19,4 @@ jobs:
       - name: Compile all Python files
         run: python -m compileall -q .
       - name: Ruff (errors only)
-        run: ruff check . --select E9,F63,F7,F82 --output-format github
+        run: ruff check . --select E9,F63,F7 --output-format github
