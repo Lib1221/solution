@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.log
+
+# Data and models
+*.sqlite3
+db.sqlite3
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+data/raw/
+data/processed/
+models/
+wandb/
+
+# Environment and editors
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
